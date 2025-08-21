@@ -1,1 +1,13 @@
 print("Olá, mundo!")
+
+Java
+ Mais rápido em loops pesados (JIT + otimizações da JVM)
+ Tipagem estática → erros detectados em compilação
+ Portabilidade via bytecode
+ Compilação manual necessária
+Python
+Código mais curto e fácil de escrever
+Interpretação direta → rápido para testar scripts
+Mais lento que Java em loops pesados
+Erros só aparecem em tempo de execução
+Bytecode gerenciado internamente, menos controle do usuário
