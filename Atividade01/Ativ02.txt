@@ -1,0 +1,7 @@
+A) java -Xint JVMModeTest
+B) java -Xcomp JVMModeTest
+C) java JVMModeTest
+
+A)Tempo de execução: 5200 ms
+B)Tempo de execução: 900 ms
+C)Tempo de execução: 1200 ms
