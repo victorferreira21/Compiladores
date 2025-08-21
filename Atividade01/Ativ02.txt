@@ -1,3 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+        long startTime, endTime;
+        double result = 0;
+
+        int N = 50_000_000;
+
+        // Medir tempo
+        startTime = System.currentTimeMillis();
+
+        for (int i = 1; i <= N; i++) {
+            result += Math.sqrt(i) * Math.sin(i) / Math.log(i + 1);
+        }
+
+        endTime = System.currentTimeMillis();
+
+        System.out.println("Resultado final: " + result);
+        System.out.println("Tempo de execução: " + (endTime - startTime) + " ms");
+    }
+}
+
 A) java -Xint JVMModeTest
 B) java -Xcomp JVMModeTest
 C) java JVMModeTest
